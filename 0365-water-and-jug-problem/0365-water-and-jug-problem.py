@@ -13,9 +13,9 @@ class Solution:
         if jug1Capacity + jug2Capacity < targetCapacity:
             return False
         
-        # Check if the target capacity is divisible by the gcd of jug capacities
+        
         return targetCapacity % self.gcd(jug1Capacity, jug2Capacity) == 0
 
-# Example usage:
+
 solution = Solution()
 print(solution.canMeasureWater(3, 5, 4))  # Output: True

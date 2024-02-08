@@ -13,7 +13,7 @@ class Solution(object):
    
         p = m + n - 1
 
-        # Merge nums1 and nums2 from the end
+
         while p1 >= 0 and p2 >= 0:
             if nums1[p1] > nums2[p2]:
                 nums1[p] = nums1[p1]
